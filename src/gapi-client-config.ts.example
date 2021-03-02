@@ -1,0 +1,9 @@
+export default {
+  discoveryDocs: [
+    "https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest",
+  ],
+  clientId:
+    "your-client-id.apps.googleusercontent.com",
+  scope: "profile https://mail.google.com",
+  // scope: "profile https://www.googleapis.com/auth/gmail.readonly",
+};

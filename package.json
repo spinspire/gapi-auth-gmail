@@ -1,7 +1,7 @@
 {
-  "name": "@spinspire/firebase-scrape",
+  "name": "@spinspire/gapi-auth-gmail",
   "version": "1.0.0",
-  "description": "Client-side web scraping with Firebase",
+  "description": "Google API, Authentication, and GMail",
   "main": "src/index.js",
   "scripts": {
     "start": "snowpack dev",
@@ -13,6 +13,9 @@
   "license": "Proprietary",
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.5.2",
+    "@types/gapi": "^0.0.39",
+    "@types/gapi.auth2": "^0.0.53",
+    "@types/gapi.client.gmail": "^1.0.3",
     "node-sass": "^5.0.0",
     "snowpack": "^3.0.13",
     "svelte": "^3.34.0",

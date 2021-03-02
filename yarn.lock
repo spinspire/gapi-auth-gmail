@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@maxim_mazurok/gapi.client.gmail@latest":
+  version "1.0.20210222"
+  resolved "https://registry.yarnpkg.com/@maxim_mazurok/gapi.client.gmail/-/gapi.client.gmail-1.0.20210222.tgz#f9bccd0de01d5d1bb9636ec0a06e5dda68b0902e"
+  integrity sha512-faLMHNeFePnvyF6E//K4ZxtU58JfwpPciL/hX9p6REMVldpt9EB4+mKAXPlzF0EMYoupSB84U9fjOgKjfaxYWg==
+  dependencies:
+    "@types/gapi.client" "*"
+
 "@snowpack/plugin-svelte@^3.5.2":
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-svelte/-/plugin-svelte-3.5.2.tgz#144d6ff9716ce6878ffeba67811e98b2c3744e7d"
@@ -10,6 +17,30 @@
     rollup-plugin-svelte "^7.0.0"
     svelte-hmr "^0.12.1"
     svelte-preprocess "^4.6.0"
+
+"@types/gapi.auth2@^0.0.53":
+  version "0.0.53"
+  resolved "https://registry.yarnpkg.com/@types/gapi.auth2/-/gapi.auth2-0.0.53.tgz#5171ef99f4b88fd8d6478254c0da8370d288b4f8"
+  integrity sha512-Ktd4EE6FUxs7aco8F/3jyOMqamoYTzaH9UjirxEZwQ/BpAzlXhzNhdcK/9aoiCaRRRYwggTv/ZlwQVU7lK7Ilw==
+  dependencies:
+    "@types/gapi" "*"
+
+"@types/gapi.client.gmail@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/gapi.client.gmail/-/gapi.client.gmail-1.0.3.tgz#61efaa812429233c4fe03d910ae45d1fe2ae71af"
+  integrity sha512-dN4Q21fhsGW0oLW/6EOhfwtVvF+eLaXcHctLdGMvKPtGBXm7HT2T2U0XQnayH7OIEUDL50aZ8TqZAHau+a6Afw==
+  dependencies:
+    "@maxim_mazurok/gapi.client.gmail" latest
+
+"@types/gapi.client@*":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/gapi.client/-/gapi.client-1.0.4.tgz#f766c9e30c17fc315d68039e3148f19bea19f643"
+  integrity sha512-MVC0ukq+bVfmQnrkaJdyFBJVuQ7W9QtqH4aGqQaEmLBj/fwsbQ7IMk8M6q2LffEoKlYBuJNpGz4nTnckthoIpg==
+
+"@types/gapi@*", "@types/gapi@^0.0.39":
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/@types/gapi/-/gapi-0.0.39.tgz#bc7fa8cd0cb175b36e3609790fb2ed73a33f6881"
+  integrity sha512-R1TZeZbvvbIC60DBJMhuOEivQHzOQtzl3uMDOOENTYQTSSDB6oEMpJo8HVPOTWivdUTbyEcB5qQOVr/JCKRlCQ==
 
 "@types/node@*":
   version "14.14.31"
